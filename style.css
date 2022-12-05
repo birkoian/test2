@@ -47,7 +47,7 @@ ul li a{
 /*Start på kode til hjemsida*/
 .bilde{
     background-color: white;
-    background: url(bilder/mat.jpg) no-repeat center center fixed;
+    background: url(mat.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
