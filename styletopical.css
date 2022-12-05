@@ -1,0 +1,58 @@
+*{
+    margin-left: 2px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aliceblue;
+}
+
+
+.innpakning2{
+    display: flex;
+}
+.innpakning3{
+    display: flex;
+}
+
+
+.avsnitt1{
+    width: 50%;
+}
+.avsnitt2{
+    width: 50%;
+}
+
+.bilde1{
+width: 50%;
+margin-top: 100px;
+}
+
+img{
+    width: 95%;
+}
+
+h1, h2{
+    color: grey;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+.bilde2{
+    width: 50%;
+    margin-top: 130px;
+}
+
+a{
+    color: royalblue;
+    text-decoration: none;
+}
+
+.pcenter{
+    text-align: center;
+    font-size: 30px;
+}
+.bildetekst{
+    margin-top: 0px;
+    float: right;
+    padding-right: 70px;
+    font-size: 12px;
+}
+

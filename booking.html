@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .skjema{
+            height: 450px;
+            width: 600px;
+            border: 3px;
+            border-color: black;
+            border-style: solid;
+            margin: auto;
+            margin-top: 70px;
+            padding: 20px;
+            text-align: center;
+            background-color: rgb(223, 223, 181);
+            margin-bottom: 50px;
+            padding-bottom: 40px;
+        }
+        .bestillingoverskrift{
+            text-align:left;
+            padding-left: 30px;
+            font-family: arial;
+            background-color: beige;
+            align-content: center;
+        }
+        .bestillingoverskrift h2{
+            font-size: 70px;
+            padding-top: 54px;
+        }
+        
+        input[type="text"],
+        input[type="datetime-local"],
+        textarea,
+        select {
+            display: block;
+            margin-top: 2px;
+            margin-bottom: 10px;
+            font-family: inherit;
+            color: #666666;
+            border: 1px solid rgba(0,0,0,0.1);
+            border-radius: 5px;
+            padding: 5px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.7);
+            box-sizing: border-box;
+        }
+        input[type="text"], input[type="datetime-local"] {
+            min-width: 130px;
+            width: 70%;
+            display: block;
+            margin : 0 auto;
+            margin-bottom: 10px;
+        }
+        textarea{
+            min-width: 100px;
+            width: 80%;
+            height: 60px;
+        }
+        button {
+            padding: 10px;
+            color: black;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 4px;
+            background: linear-gradient(rgba(255,255,255,0.2),transparent);
+            background-color: white;
+            outline: none;
+            cursor: pointer;
+            height: 40px;
+            width: 100px;
+            font-family: arial;
+        }
+        button:active {
+            transform: translate(1px,1px);
+        }
+        .overinput{
+            font-size: 18px;
+            font-family: arial;
+        }
+        h5{
+            font-size: 30px;
+            font-family: arial;
+            margin-bottom: 7px;
+        }
+        .info{
+            margin-top: 20px;
+            padding-left: 30px;
+            font-family: arial;
+            font-size: 18px;
+            margin-right: 30px;
+        }
+        .brødtekst{
+            margin-bottom: 15px;
+        }
+        .underoverskrift{
+            font-family: arial;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menyknapper">
+
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="meny.html">Meny</a></li>
+            <li><a href="booking.html">Reservasjon</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="topicalpage.html">Topical page</a></li>
+        </ul>
+        
+    </div>
+
+    <div class="bestillingoverskrift">
+    <h2>Reservasjon</h2>
+    </div>
+
+    <div class="info">
+        <p class="brødtekst">Kemercuisine er det beste stedet en kan befinne seg for å smake de herlige rettene tilhørende det rike tyrkiske kjøkkenet.</p>
+        <p class="brødtekst">Kemercuisine forvandler tyrkiske matretter til uunnværlige smaksopplevelser ved å tilby de aller beste rettene i hele landet. Vi oppfyller vår aller viktigste plikt ved å tilby rike menyer med retter som har en uforglemmelig smak, kunstverdig utformet og tilberedt av ekspertkokkene våre. </p>
+        <p class="brødtekst">Vår bedrift i Oslo tilbyr tjenester til de av våre borgere som savner tyrkiske matretter. Vi arbeider for å få deg til å føle deg hjemme ved å sikre at du blir oppvartet på den beste måten og får servert de aller lekreste matrettene. De av våre gjester som lengter etter hjemlandet sitt vil oppnå både mental og fysisk tilfredsstillelse fra det øyeblikket de trer inn i vår restaurant. Som Kemercuisine står vi alltid til tjeneste i Oslo for å tilby de unike smaksopplevelsene som det tyrkiske kjøkken er berømt for – både i navn og aroma.</p>
+        <p class="brødtekst" style="font-weight: bold;">Vårt lokale har plass og kapasitet til å servere rundt 100 personer. For å bestille bord hos oss se lenger ned på siden.</p>
+        <p class="brødtekst">Dersom du ønsker å leie hele lokalet eller ha et arrangement ta kontakt med oss på mail: kemercuisine@gmail.com. Vi serverer også mat til slike anledninger og det vil være mulighet for å bestille andre retter enn det som er på menyen.</p>
+    </div>
+
+    <div class="skjema" id="skjema">
+
+        <h5>Bestill bord her:</h5>
+        <p class="underoverskrift">(Skriv inn hvilket navn bordet skal stå på og antall personer)</p>
+        
+        <p class="overinput">Fornavn</p>
+        <input type="text"><br>
+        
+        <p class="overinput">Etternavn</p>
+        <input type="text"><br>
+        
+        <p class="overinput">Antall personer</p>
+        <input type="text"><br>
+
+        <p class="overinput">Velg tidspunkt</p>
+        <input type="datetime-local" id="start" name="dato"
+        value="2022-12-05"
+        min="2022-12-05" max="2023-12-31"><br><br>
+
+        <button>Bestill</button>
+
+    </div>
+    
+</body>
+</html>

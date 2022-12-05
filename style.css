@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+}
+
+
+
+/*Starten på meny-delen øverst*/
+.menyknapper{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+ul {
+    margin-left: 60px;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: arial;
+    color: black;
+    padding: 0 20px;
+}
+.menyknapper ul a:hover{
+    background-color: beige;
+    border-radius: 0px;
+}
+.menyknapper ul a:active{
+    background-color: rgb(206, 201, 186);
+    border-radius: 0px;
+}
+/*Slutt på meny-delen øverst*/
+
+
+
+
+/*Start på kode til hjemsida*/
+.bilde{
+    background-color: white;
+    background: url(bilder/mat.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 550px;
+    padding-top: 60px;
+    opacity: 0.9;
+}
+
+.overskrift{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 70px;
+    font-family: arial;
+    color: beige;
+    -webkit-text-stroke: 2px black;
+}
+.fot{
+    margin-top: 30px;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 40px;
+}
+.fot h3{
+    font-size: 25px;
+}
+/*Slutt på kode til hjemsida*/
+
+
+
+/*Start på kontakt-oss-sida*/
+.innpakning{
+    display: flex;
+}
+.kontaktoss{
+    text-align:left;
+    padding-left: 30px;
+    font-family: arial;
+    width: 100%;
+    background-color: beige;
+    align-content: center;
+}
+.kontaktoss h2{
+    font-size: 70px;
+    padding-top: 54px;
+}
+.kontaktoss h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.kontaktoss p{
+    margin-bottom: 30px;
+}
+.akerbryggebilde{
+    padding-top: 54px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.akerbryggebilde img{
+    border-radius: 20px;
+}
+.bildetekst{
+    font-family: arial;
+    font-size: 12px;
+    float: right;
+    padding-right: 15px;
+}
+/*Slutt på kontakt-oss-sida*/
+
